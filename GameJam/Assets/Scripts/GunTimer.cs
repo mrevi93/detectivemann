@@ -20,7 +20,7 @@ public class GunTimer : MonoBehaviour
     {
         float Ratio;
         Ratio = CurrentTime/MaxTime;
-        transform.rotation = Quaternion.Euler(new Vector3(0, 0, -90 * Ratio));
+   
 
         if (CurrentTime > 0)
         {
